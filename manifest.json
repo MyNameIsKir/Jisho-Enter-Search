@@ -1,0 +1,16 @@
+{
+  "name": "Jisho Enter Search",
+  "description": "Makes jisho search with enter",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "http://*.jisho.org/",
+    "https://*.jisho.org/"
+  ],
+  "author": "Kirstin \"Kir\" Jarchow",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
